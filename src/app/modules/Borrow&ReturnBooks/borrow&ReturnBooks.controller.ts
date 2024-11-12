@@ -22,21 +22,22 @@ const borrowBook = async (req: Request, res: Response) => {
   }
 };
 
-const returnBook = async (req: Request, res: Response) => {
-  try {
-    const { borrowId } = req.body;
-    // Call the service function to return the book
-    const result = await returnBook(borrowId);
+// const returnBook = async (req: Request, res: Response) => {
+//   try {
+//     const { borrowId } = req.body;
+//     // Call the service function to return the book
+//     const result = await returnBook(borrowId);
 
-    // Send a successful response
-    return res.status(200).json(result);
-  } catch (error: any) {
-    // Send an error response
-    return res.status(400).json({
-      success: false,
-      message: error.message,
-    });
-  }
-};
+//     // Send a successful response
+//     return res.status(200).json(result);
+//   } catch (error: any) {
+//     // Send an error response
+//     return res.status(400).json({
+//       success: false,
+//       message: error.message,
+//     });
+//   }
+// };
 
-export const BorrowControllers = { borrowBook, returnBook };
+export const BorrowControllers = { borrowBook };
+// export const BorrowControllers = { borrowBook, returnBook };
