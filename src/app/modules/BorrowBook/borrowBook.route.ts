@@ -1,5 +1,5 @@
 import express from "express";
-import { BorrowControllers } from "./borrow&ReturnBooks.controller";
+import { BorrowControllers } from "./borrowBook.controller";
 
 const router = express.Router();
 
