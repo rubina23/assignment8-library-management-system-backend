@@ -3,6 +3,6 @@ import { ReturnBookControllers } from "./returnBook.controller";
 
 const router = express.Router();
 
-router.post("/", ReturnBookControllers.returnBook);
+// router.post("/", ReturnBookControllers.returnBook);
 
 export const returnBookRoutes = router;
