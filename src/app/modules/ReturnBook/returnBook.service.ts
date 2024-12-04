@@ -46,7 +46,6 @@ export const ReturnBookServices = {
   returnBook: async (
     borrowId: string
   ): Promise<{ success: boolean; message: string }> => {
-    // Handle the return logic here (e.g., updating the database)
     return { success: true, message: "Book returned successfully" };
   },
 };
