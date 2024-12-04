@@ -18,7 +18,6 @@ https://assignment8-library-management-system-backend.vercel.app/
   - `dotenv` - for environment variable management
   - `@prisma/client` - ORM for database management
   - `cors` - for handling cross-origin requests
-  - `nodemon` - for development server reloading
 
 ## Setup Instructions
 
