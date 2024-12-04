@@ -28,8 +28,3 @@ const borrowBook = async (bookId: string, memberId: string) => {
 export const BorrowServices = {
   borrowBook,
 };
-// export const BorrowServices = {
-//   borrowBook,
-//   returnBook,
-//   getOverdueBorrows,
-// };
